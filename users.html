@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/users.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <title>Random Users Display</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-container">
+        <div class="logo">
+          <img src="./images/icon-people.png" alt="Icon" class="icon-image" />
+          <strong>RANDOM USERS</strong>
+        </div>
+        <nav class="menu">
+          <ul class="menu-list">
+            <li class="menu-list-item">
+              <a href="index.html" class="menu-list-link link-home">Home</a>
+            </li>
+            <li class="menu-list-item">
+              <a href="users.html" class="menu-list-link link-users"
+                >Get Users</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="container">
+      <h1 id="title">Get Random Users Data</h1>
+      <div id="fetch-reset">
+        <button id="fetchButton">Get Users</button>
+        <button id="reset">Reset Users</button>
+      </div>
+      <div id="userContainer" class="user-container"></div>
+    </div>
+    <footer>
+      <a
+        href="https://commschool.ge/courses/react-is-kursi/?course_link=React"
+        target="_blank"
+        class="logo-name"
+      >
+        <img
+          class="logo-footer"
+          src="./images/logo_footer.svg"
+          alt="logo footer"
+        />
+        <h2>COMM | React</h2>
+      </a>
+      <h3>&copy; 2024 kandelakimerab@gmail.com</h3>
+    </footer>
+    <script type="module" src="./js/index.js"></script>
+  </body>
+</html>

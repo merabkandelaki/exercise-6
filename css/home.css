@@ -1,0 +1,109 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header-container {
+    background-color: rgb(19, 18, 18);
+    padding: 10px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.icon-image {
+    width: 50px;
+    height: 50px;
+    animation: animIcon 3s linear infinite;
+}
+
+@keyframes animIcon {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+strong {
+    font-size: 18px;
+    color: rgb(138, 138, 138);
+}
+
+.menu-list {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.menu-list-link {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    transition-duration: 0.4s;
+}
+
+.menu-list-link:hover {
+    color: white;
+}
+
+.link-home {
+    color: yellow;
+}
+
+.link-users {
+    color: rgb(138, 138, 138);
+}
+
+.image {
+    height: 100vh;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+footer {
+    background-color: rgb(19, 18, 18);
+    padding: 10px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-name {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-footer {
+    width: 45px;
+    height: 45px;
+}
+
+h2 {
+    font-size: 18px;
+    color: rgb(138, 138, 138);
+}
+
+h3 {
+    font-size: 18px;
+    color: rgb(138, 138, 138);
+}
